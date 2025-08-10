@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extreme Detailing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header id="header">
+        <div id="logo">
+            <img id="header-img" src="https://raw.githubusercontent.com/AAddSS-Coding/Test/refs/heads/main/Logo.png"
+                alt="logo" ">
+      </div>
+      <nav id=" nav-bar">
+            <ul>
+                <li>
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#packages">Packages</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#contact-us">Contact Us</a>
+                </li>
+            </ul>
+            </nav>
+    </header>
+
+    <div class="container">
+        <section id="home">
+            <div class="grid">
+                <div class="icon">
+                    <img src="https://raw.githubusercontent.com/AAddSS-Coding/Test/be0df64084b12e019149acf57a9188979105427f/Sparkle.png"
+                        alt="Sparkle" width="100">
+                </div>
+                <div class="desc">
+                    <h2>Immaculate Shine</h2>
+                    <p>We leave your car glistening with showroom-quality polish and a mirror finish.</p>
+                </div>
+            </div>
+
+            <div class="grid">
+                <div class="icon">
+                    <img src="https://raw.githubusercontent.com/AAddSS-Coding/Test/refs/heads/main/Van.png"
+                        alt="Mobile Van" width="100">
+                </div>
+                <div class="desc">
+                    <h2>Mobile Service</h2>
+                    <p>We bring the full detailing experience directly to your driveway or workplace.</p>
+                </div>
+            </div>
+
+            <div class="grid">
+                <div class="icon">
+                    <img src="https://raw.githubusercontent.com/AAddSS-Coding/Test/0b6aa4ffef680d29f4d23e68701a5a27cbe0db64/Polishing%20gun.png"
+                        alt="Polishing Gun" width="100">
+                </div>
+                <div class="desc">
+                    <h2>Precision Tools</h2>
+                    <p>Our polishers and methods ensure every curve of your car gets expert attention.</p>
+                </div>
+            </div>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/dHwxAbVbcV4?si=HIL-oEwJrex3cVfd"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen id="video"></iframe>
+        </section>
+
+        <section id="packages">
+            <div class="tier" id="basic">
+                <div class="level">Basic Detail</div>
+                <h2>£59</h2>
+                <ul>
+                    <li>Exterior hand wash</li>
+                    <li>Interior vacuum</li>
+                    <li>Window cleaning</li>
+                    <li>Tire shine</li>
+                    <li>Light interior wipe-down</li>
+                </ul>
+            </div>
+            <div class="tier" id="premium">
+                <div class="level">Premium Detail</div>
+                <h2>£109</h2>
+                <ul>
+                    <li>Everything in <i><b>Basic</b></i></li>
+                    <li>Clay bar treatment</li>
+                    <li>Hand wax</li>
+                    <li>Deep interior cleaning</li>
+                    <li>Carpet & upholstery shampoo</li>
+                    <li>Trim & plastic conditioning</li>
+                </ul>
+            </div>
+            <div class="tier" id="ultimate">
+                <div class="level">Ultimate Detail</div>
+                <h2>£169</h2>
+                <ul>
+                    <li>Everything in <i><b>Premium</b></i></li>
+                    <li>Machine polish</li>
+                    <li>Engine bay cleaning</li>
+                    <li>Leather seat treatment</li>
+                    <li>Headlight restoration</li>
+                    <li>Ceramic spray sealant</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact-us">
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <fieldset>
+                    <input type="text" id="name" placeholder="Full Name" required>
+                </fieldset>
+
+                <fieldset>
+                    <input type="tel" id="tel" placeholder="+44 7XXX XXX XXX" required>
+                </fieldset>
+
+                <fieldset>
+                    <input name="email" type="email" id="email" placeholder="Enter your email address" required>
+                </fieldset>
+
+                <fieldset>
+                    <select id="dropdown">
+                        <option>Please select a package</option>
+                        <option>Basic Detail</option>
+                        <option>Premium Detail</option>
+                        <option>Ultimate Detail</option>
+                    </select>
+                </fieldset>
+
+                <fieldset>
+                    <label for="vehicle-info">Vehicle Information?
+                        <textarea id="vehicle-info" rows="3" cols="30"
+                            placeholder="Please include your vehicle make and mode, the condition of the vehicle and your approximate location..."
+                            required></textarea>
+                    </label>
+                </fieldset>
+
+                <input type="submit" id="submit" class="btn">
+            </form>
+        </section>
+
+    </div>
+</body>
+
+</html>
